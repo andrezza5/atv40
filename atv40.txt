@@ -1,0 +1,13 @@
+//Criação de objeto com 3 propriedades
+
+const endereço = {
+	cidade: 'Garanhuns',
+	rua: 'Av.Heliopolis',
+	cep: 55500000
+};
+
+// object.keys() retorna um array cujos elementos são ​encontradas diretamente em object
+
+const props = Object.keys(endereço);
+
+console.log(props); // ["cidade", "rua", "cep"]
